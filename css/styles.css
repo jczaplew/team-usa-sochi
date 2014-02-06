@@ -107,7 +107,7 @@ body, html {
   padding-left:7px;
 }
 
-@media(max-width: 500px) {
+@media(max-width: 767px) {
   .universalSearch {
     position: relative;
     right: 0;
@@ -115,6 +115,6 @@ body, html {
     z-index: 5;
     min-width: 251px;
     max-width: 430px;
-    margin-left: 0  ;
+    margin-left: -58px;
   }
 }
