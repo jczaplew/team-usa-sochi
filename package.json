@@ -1,0 +1,24 @@
+{
+  "name": "team-usa-sochi",
+  "version": "1.0.0",
+  "description": "Visualizing Team USA at the 2014 Olympics",
+  "main": "gruntfile.js",
+  "scripts": {
+    "start": "python -m SimpleHTTPServer"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/jczaplew/team-usa-sochi.git"
+  },
+  "author": "John J Czaplewski || jczaplew@gmail.com",
+  "license": "CC BY 4.0",
+  "devDependencies" : {
+    "grunt" :                   "~0.4.0",
+    "grunt-contrib-cssmin":         "*",
+    "grunt-contrib-uglify":         "*",
+    "grunt-contrib-watch":          "*",
+    "grunt-cssc":                   "*",
+    "grunt-htmlhint":               "*",
+    "matchdep":                     "*"
+  } 
+}
